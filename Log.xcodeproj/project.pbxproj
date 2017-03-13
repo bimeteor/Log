@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D61414991DFEE5AE00EA89D8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61414981DFEE5AE00EA89D8 /* TestViewController.m */; };
+		D620E4571DFEB851009208B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620E4561DFEB851009208B4 /* AppDelegate.swift */; };
+		D620E4591DFEB851009208B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620E4581DFEB851009208B4 /* ViewController.swift */; };
+		D620E45C1DFEB851009208B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D620E45A1DFEB851009208B4 /* Main.storyboard */; };
+		D620E45E1DFEB851009208B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D620E45D1DFEB851009208B4 /* Assets.xcassets */; };
+		D620E4611DFEB851009208B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D620E45F1DFEB851009208B4 /* LaunchScreen.storyboard */; };
+		D6FFB1E11DFFC2F700281459 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1C71DFFC2F700281459 /* CLIColor.m */; };
+		D6FFB1E21DFFC2F700281459 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1C91DFFC2F700281459 /* CocoaLumberjack.swift */; };
+		D6FFB1E31DFFC2F700281459 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1CB1DFFC2F700281459 /* DDAbstractDatabaseLogger.m */; };
+		D6FFB1E41DFFC2F700281459 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1CD1DFFC2F700281459 /* DDASLLogCapture.m */; };
+		D6FFB1E51DFFC2F700281459 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1CF1DFFC2F700281459 /* DDASLLogger.m */; };
+		D6FFB1E61DFFC2F700281459 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1D21DFFC2F700281459 /* DDFileLogger.m */; };
+		D6FFB1E71DFFC2F700281459 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1D61DFFC2F700281459 /* DDLog.m */; };
+		D6FFB1E81DFFC2F700281459 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1D91DFFC2F700281459 /* DDTTYLogger.m */; };
+		D6FFB1E91DFFC2F700281459 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1DC1DFFC2F700281459 /* DDContextFilterLogFormatter.m */; };
+		D6FFB1EA1DFFC2F700281459 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1DE1DFFC2F700281459 /* DDDispatchQueueLogFormatter.m */; };
+		D6FFB1EB1DFFC2F700281459 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB1E01DFFC2F700281459 /* DDMultiFormatter.m */; };
+		D6FFB21D1DFFD67200281459 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB21A1DFFD67200281459 /* LogManager.swift */; };
+		D6FFB21E1DFFD67200281459 /* LogSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFB21C1DFFD67200281459 /* LogSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D614148E1DFEB93600EA89D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D61414911DFEBABC00EA89D8 /* Log-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log-Bridging-Header.h"; sourceTree = "<group>"; };
+		D61414971DFEE5AE00EA89D8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D61414981DFEE5AE00EA89D8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D620E4531DFEB851009208B4 /* Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Log.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620E4561DFEB851009208B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D620E4581DFEB851009208B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D620E45B1DFEB851009208B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D620E45D1DFEB851009208B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D620E4601DFEB851009208B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D620E4621DFEB851009208B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FFB1C61DFFC2F700281459 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		D6FFB1C71DFFC2F700281459 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		D6FFB1C81DFFC2F700281459 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		D6FFB1C91DFFC2F700281459 /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
+		D6FFB1CA1DFFC2F700281459 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		D6FFB1CB1DFFC2F700281459 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		D6FFB1CC1DFFC2F700281459 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		D6FFB1CD1DFFC2F700281459 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		D6FFB1CE1DFFC2F700281459 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		D6FFB1CF1DFFC2F700281459 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		D6FFB1D01DFFC2F700281459 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		D6FFB1D11DFFC2F700281459 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		D6FFB1D21DFFC2F700281459 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		D6FFB1D31DFFC2F700281459 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		D6FFB1D41DFFC2F700281459 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		D6FFB1D51DFFC2F700281459 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		D6FFB1D61DFFC2F700281459 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		D6FFB1D71DFFC2F700281459 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		D6FFB1D81DFFC2F700281459 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		D6FFB1D91DFFC2F700281459 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		D6FFB1DB1DFFC2F700281459 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		D6FFB1DC1DFFC2F700281459 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		D6FFB1DD1DFFC2F700281459 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		D6FFB1DE1DFFC2F700281459 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		D6FFB1DF1DFFC2F700281459 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		D6FFB1E01DFFC2F700281459 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		D6FFB21A1DFFD67200281459 /* LogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		D6FFB21B1DFFD67200281459 /* LogOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogOC.h; sourceTree = "<group>"; };
+		D6FFB21C1DFFD67200281459 /* LogSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogSwift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D620E4501DFEB851009208B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D620E44A1DFEB851009208B4 = {
+			isa = PBXGroup;
+			children = (
+				D620E4551DFEB851009208B4 /* Log */,
+				D620E4541DFEB851009208B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D620E4541DFEB851009208B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D620E4531DFEB851009208B4 /* Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D620E4551DFEB851009208B4 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFB1C41DFFC2F700281459 /* CocoaLumberjack */,
+				D620E4561DFEB851009208B4 /* AppDelegate.swift */,
+				D620E4581DFEB851009208B4 /* ViewController.swift */,
+				D61414971DFEE5AE00EA89D8 /* TestViewController.h */,
+				D61414981DFEE5AE00EA89D8 /* TestViewController.m */,
+				D6FFB21A1DFFD67200281459 /* LogManager.swift */,
+				D6FFB21B1DFFD67200281459 /* LogOC.h */,
+				D6FFB21C1DFFD67200281459 /* LogSwift.swift */,
+				D620E45A1DFEB851009208B4 /* Main.storyboard */,
+				D620E45D1DFEB851009208B4 /* Assets.xcassets */,
+				D620E45F1DFEB851009208B4 /* LaunchScreen.storyboard */,
+				D620E4621DFEB851009208B4 /* Info.plist */,
+				D614148E1DFEB93600EA89D8 /* PrefixHeader.pch */,
+				D61414911DFEBABC00EA89D8 /* Log-Bridging-Header.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		D6FFB1C41DFFC2F700281459 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFB1C51DFFC2F700281459 /* CLI */,
+				D6FFB1C81DFFC2F700281459 /* CocoaLumberjack.h */,
+				D6FFB1C91DFFC2F700281459 /* CocoaLumberjack.swift */,
+				D6FFB1CA1DFFC2F700281459 /* DDAbstractDatabaseLogger.h */,
+				D6FFB1CB1DFFC2F700281459 /* DDAbstractDatabaseLogger.m */,
+				D6FFB1CC1DFFC2F700281459 /* DDASLLogCapture.h */,
+				D6FFB1CD1DFFC2F700281459 /* DDASLLogCapture.m */,
+				D6FFB1CE1DFFC2F700281459 /* DDASLLogger.h */,
+				D6FFB1CF1DFFC2F700281459 /* DDASLLogger.m */,
+				D6FFB1D01DFFC2F700281459 /* DDAssertMacros.h */,
+				D6FFB1D11DFFC2F700281459 /* DDFileLogger.h */,
+				D6FFB1D21DFFC2F700281459 /* DDFileLogger.m */,
+				D6FFB1D31DFFC2F700281459 /* DDLegacyMacros.h */,
+				D6FFB1D41DFFC2F700281459 /* DDLog+LOGV.h */,
+				D6FFB1D51DFFC2F700281459 /* DDLog.h */,
+				D6FFB1D61DFFC2F700281459 /* DDLog.m */,
+				D6FFB1D71DFFC2F700281459 /* DDLogMacros.h */,
+				D6FFB1D81DFFC2F700281459 /* DDTTYLogger.h */,
+				D6FFB1D91DFFC2F700281459 /* DDTTYLogger.m */,
+				D6FFB1DA1DFFC2F700281459 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		D6FFB1C51DFFC2F700281459 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFB1C61DFFC2F700281459 /* CLIColor.h */,
+				D6FFB1C71DFFC2F700281459 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		D6FFB1DA1DFFC2F700281459 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFB1DB1DFFC2F700281459 /* DDContextFilterLogFormatter.h */,
+				D6FFB1DC1DFFC2F700281459 /* DDContextFilterLogFormatter.m */,
+				D6FFB1DD1DFFC2F700281459 /* DDDispatchQueueLogFormatter.h */,
+				D6FFB1DE1DFFC2F700281459 /* DDDispatchQueueLogFormatter.m */,
+				D6FFB1DF1DFFC2F700281459 /* DDMultiFormatter.h */,
+				D6FFB1E01DFFC2F700281459 /* DDMultiFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D620E4521DFEB851009208B4 /* Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620E4651DFEB851009208B4 /* Build configuration list for PBXNativeTarget "Log" */;
+			buildPhases = (
+				D620E44F1DFEB851009208B4 /* Sources */,
+				D620E4501DFEB851009208B4 /* Frameworks */,
+				D620E4511DFEB851009208B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Log;
+			productName = Log;
+			productReference = D620E4531DFEB851009208B4 /* Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D620E44B1DFEB851009208B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WG;
+				TargetAttributes = {
+					D620E4521DFEB851009208B4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2XSY7JEX7E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D620E44E1DFEB851009208B4 /* Build configuration list for PBXProject "Log" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D620E44A1DFEB851009208B4;
+			productRefGroup = D620E4541DFEB851009208B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D620E4521DFEB851009208B4 /* Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D620E4511DFEB851009208B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620E4611DFEB851009208B4 /* LaunchScreen.storyboard in Resources */,
+				D620E45E1DFEB851009208B4 /* Assets.xcassets in Resources */,
+				D620E45C1DFEB851009208B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D620E44F1DFEB851009208B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FFB1E71DFFC2F700281459 /* DDLog.m in Sources */,
+				D620E4591DFEB851009208B4 /* ViewController.swift in Sources */,
+				D6FFB1EA1DFFC2F700281459 /* DDDispatchQueueLogFormatter.m in Sources */,
+				D6FFB1E61DFFC2F700281459 /* DDFileLogger.m in Sources */,
+				D6FFB1EB1DFFC2F700281459 /* DDMultiFormatter.m in Sources */,
+				D6FFB1E21DFFC2F700281459 /* CocoaLumberjack.swift in Sources */,
+				D6FFB21D1DFFD67200281459 /* LogManager.swift in Sources */,
+				D6FFB1E41DFFC2F700281459 /* DDASLLogCapture.m in Sources */,
+				D6FFB21E1DFFD67200281459 /* LogSwift.swift in Sources */,
+				D6FFB1E81DFFC2F700281459 /* DDTTYLogger.m in Sources */,
+				D6FFB1E51DFFC2F700281459 /* DDASLLogger.m in Sources */,
+				D6FFB1E11DFFC2F700281459 /* CLIColor.m in Sources */,
+				D6FFB1E91DFFC2F700281459 /* DDContextFilterLogFormatter.m in Sources */,
+				D620E4571DFEB851009208B4 /* AppDelegate.swift in Sources */,
+				D6FFB1E31DFFC2F700281459 /* DDAbstractDatabaseLogger.m in Sources */,
+				D61414991DFEE5AE00EA89D8 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D620E45A1DFEB851009208B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D620E45B1DFEB851009208B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D620E45F1DFEB851009208B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D620E4601DFEB851009208B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D620E4631DFEB851009208B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D620E4641DFEB851009208B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D620E4661DFEB851009208B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XSY7JEX7E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Log/PrefixHeader.pch;
+				INFOPLIST_FILE = Log/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.-.Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Log/Log-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D620E4671DFEB851009208B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XSY7JEX7E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Log/PrefixHeader.pch;
+				INFOPLIST_FILE = Log/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.-.Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_OBJC_BRIDGING_HEADER = "Log/Log-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D620E44E1DFEB851009208B4 /* Build configuration list for PBXProject "Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620E4631DFEB851009208B4 /* Debug */,
+				D620E4641DFEB851009208B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620E4651DFEB851009208B4 /* Build configuration list for PBXNativeTarget "Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620E4661DFEB851009208B4 /* Debug */,
+				D620E4671DFEB851009208B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D620E44B1DFEB851009208B4 /* Project object */;
+}
